@@ -157,26 +157,26 @@ h1,h2,h3,h4,h5,h6{
 
 	max-width: 100%;
 	height: auto;
+	display: flex;
 	
 }
 
-
+.card__main{
+	display: inline-flex;
+}
 .card__photo{
 
 
 width: 65%;
 height:auto;
 
-display: block;
+display: inline-flex;
 float: left;
 
 
 	
 }
 .container__card{
-
-	padding-top: 70px;
-
 	height: auto;
 
 	width: 35%;
@@ -197,11 +197,11 @@ float: left;
 
 .container__card__image{
 
-	padding-top: 100px;
-
-	max-width:100%
+	padding-top: 10px;
+    width: 357px;
+	
 	height:auto;
-	display:block;
+	display:inline-flex;
 
 }
 
