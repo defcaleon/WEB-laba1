@@ -153,15 +153,18 @@ h1,h2,h3,h4,h5,h6{
 
 /*Card*/
 
-.card__1{
+.card{
 
+	max-width: 1600px;
+	max-height: 600px;
+	width: 100%;
 }
 
 
 .card__photo{
 
-max-width: 1060px;
-width: 70%;
+
+width: 65%;
 
 display: block;
 float: left;
@@ -172,10 +175,10 @@ float: left;
 .container__card{
 
 	padding-top: 70px;
-	max-width: 530px;
-	max-height: 400px;
 
-	width: 30%;
+	max-height: 600px;
+
+	width: 35%;
 
 	float:  right;
 
@@ -185,10 +188,38 @@ float: left;
 
 .card__text{
 	text-align: justify;
-
+	line-height: 2;
 	
 	padding-right: 40px;
 	padding-left: 40px;
 }
+
+.container__card__image{
+
+	padding-top: 100px;
+	width: 100%;
+
+}
+
+.container__card__left{
+
+	padding-top: 70px;
+
+	max-height: 600px;
+
+	width: 35%;
+
+	float:  left;
+}
+
+.card__photo__right{
+
+	display: block;
+	float: right;
+
+
+	
+}
+
 
 
