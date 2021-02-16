@@ -155,36 +155,41 @@ h1,h2,h3,h4,h5,h6{
 
 .card{
 
-	max-width: 100%;
-	height: auto;
-	display: flex;
+max-width: 100%;
+height: auto;
+
+display: flex;
+
+align-items: stretch;
+
+/*flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 30%;*/
+
+width: 100%;
 	
 }
 
-.card__main{
-	display: inline-flex;
+.img__class{
+	max-width:100%;
+	height:auto;
 }
+
 .card__photo{
 
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 65%;
+  flex: 0 0 65%;
 
-width: 65%;
-height:auto;
+  max-width: 65%;
 
-display: inline-flex;
-float: left;
-
-
-	
 }
 .container__card{
-	height: auto;
+ -webkit-box-flex: 0;
+  -webkit-flex: 0 0 35%;
+  flex: 0 0 35%;
 
-	width: 35%;
-
-	float:  right;
-
-	
-
+  max-width: 35%;
 }
 
 .card__text{
@@ -197,11 +202,10 @@ float: left;
 
 .container__card__image{
 
-	padding-top: 10px;
-    width: 357px;
-	
+	padding-top: 20px;
 	height:auto;
-	display:inline-flex;
+
+	
 
 }
 
