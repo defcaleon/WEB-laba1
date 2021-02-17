@@ -126,6 +126,7 @@ h1,h2,h3,h4,h5,h6{
 
 .section__logo{
 
+	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -171,10 +172,21 @@ width: 100%;
 }
 
 .img__class{
+	margin: auto;
 	max-width:100%;
 	height:auto;
 }
 
+.card__photo__small{
+
+	-webkit-box-flex: 0;
+  -webkit-flex: 0 0 35%;
+  flex: 0 0 35%;
+
+  max-width: 35%;
+
+
+}
 .card__photo{
 
   -webkit-box-flex: 0;
@@ -185,11 +197,24 @@ width: 100%;
 
 }
 .container__card{
+ position: relative;
+
+ vertical-align:  bottom;
  -webkit-box-flex: 0;
   -webkit-flex: 0 0 35%;
   flex: 0 0 35%;
 
   max-width: 35%;
+}
+.container__card__small{
+ position: relative;
+
+ vertical-align:  bottom;
+ -webkit-box-flex: 0;
+  -webkit-flex: 0 0 30%;
+  flex: 0 0 30%;
+
+  max-width: 30%;
 }
 
 .card__text{
@@ -201,30 +226,12 @@ width: 100%;
 }
 
 .container__card__image{
+ 	position: absolute;
+  	bottom: 0;
 
 	padding-top: 20px;
 	height:auto;
 
 	
 
-}
-
-.container__card__left{
-
-	padding-top: 70px;
-
-	max-height: 600px;
-
-	width: 35%;
-
-	float:  left;
-}
-
-.card__photo__right{
-
-	display: block;
-	float: right;
-
-
-	
 }
